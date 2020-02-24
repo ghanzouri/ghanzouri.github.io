@@ -9,16 +9,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Author settings
 author: Ilies Ghanzouri # add your name
 author-pic: me.jpg
-about-author: Hello, my name is Ilies Ghanzouri and I am passionate in product design. All my life, I craved to be working on innovative projects. My motto in life has always been about innovating and creating objects to help and ease our everyday life. I always had innovative ideas in mind and wanted to bring my concepts to life.
-To stimulate my passion for design, I undertook projects in mechatronics in undergrad at Arts et Métiers ParisTech, a French Mechanical Engineer school. Currently, I am pursuing a MS in Mechanical Engineering at Stanford University with a concentration in Design Methodology and a Minor in Computer Science (CS161, CS230, CS229). Due to my high interest in computer science and mechatronics, I believe the Stanford Design group (ME310) will foster my grasp of the incorporation of mechatronics and machine learning algorithms into innovative solutions.
+about-author: Hello, my name is Ilies Ghanzouri and I am passionate in product design. All my life, I craved to be working on innovative projects. My motto in life has always been about innovating and creating objects to help and ease our everyday life. I always had innovative ideas in mind and wanted to bring my concepts to life. To stimulate my passion for design, I undertook projects in mechatronics in undergrad at Arts et Métiers ParisTech, a French Mechanical Engineer school. Currently, I am pursuing a MS in Mechanical Engineering at Stanford University with a concentration in Design Methodology and a Minor in Computer Science (CS161, CS230, CS229). Due to my high interest in computer science and mechatronics, I believe the Stanford Design group (ME310) will foster my grasp of the incorporation of mechatronics and machine learning algorithms into innovative solutions.
 
 
 # Contact links
 email: ghanz@stanford.edu # Add your Email address
 #phone: # Add your Phone number
 #website: # Add your website, do not add http://
-linkedin: https://www.linkedin.com/in/ilies-ghanzouri/ # Add your Linkedin handle
-#github: artemsheludko # Add your Github handle
+linkedin: ilies-ghanzouri/ # Add your Linkedin handle
+github: ghanzouri # Add your Github handle
 #twitter: '@artemsheludko_' # Add your Twitter handle
 #facebook: # Add your Facebook handle
 #instagram: # Add your Instagram handle
@@ -28,7 +27,7 @@ linkedin: https://www.linkedin.com/in/ilies-ghanzouri/ # Add your Linkedin handl
 mailchimp: # Add your MailChimp form identifier.
 
 # Disqus
-discus_identifier: mr-brown # Add your discus identifier
+discus_identifier: # Add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
