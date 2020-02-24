@@ -1,16 +1,59 @@
 ---
 layout: post
-title:  Design Hitachi Collaborator
+title:  Design Student Collaborator
 date:   2020-02-23 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: post-2.jpg # Add image post (optional)
-tags: [Blog, Sunset]
+img: /hitachi/hit.png # Add image post (optional)
+tags: [Product Design, Problems solving, creativity, communication,  Mechatronics, Arduino, Solidworks, CAD, 3Dprinting, Prototyping]
 author: # Add name author (optional)
 ---
 
 #### October 2019 – June 2020, Stanford, CA
 
-• ME310 Engineering Design Entrepreneurship and Innovation Stanford Student
-• Collaborator in partnership with Tokyo Institute of Technology, Japan, on the Hitachi America project
+## ***Work In Progress***
 
-**Work In Progress**
+I am part of ME310: Engineering Design, Entrepreneurship and Innovation, a design methodology class at Stanford University.
+I am working as a student collaborator in partnership with Tokyo Tech, Japan, on the [Hitachi America project](http://our310.stanford.edu/index.php/Projects/HomePage#Hitachi_America) to redesign a safe, enjoyable, and reliable food supply chain and procurement experience for elderly who live in typical asian cities.
+
+We are currently working in the **prototype and user-testing phase.**
+
+
+![Yosh Ginsu]({{site.baseurl}}/assets/img/hitachi/fig1.jpg)
+<center> Fig. 1: Fall quarter brochure </center>
+
+# 1. Benchmarking
+
+[Handout : Fall Benchmarking]({{ site.url }}/assets/img/hitachi/Benchmarking.pdf)
+
+# 2. Critical Function Prototype 1:
+
+In this prototype, we were tasked with identifying one critical function that could be prototyped and tested for validity.
+
+[Handout : CFP 1]({{ site.url }}/assets/img/hitachi/CFP1.pdf)
+
+# 3. Critical Function Prototype 2:
+
+In this prototype, we expanded into identifying another  critical function that could be prototyped and tested for validity.
+
+[Handout : CFP 2]({{ site.url }}/assets/img/hitachi/CFP2.pdf)
+
+# 4. Summary of all findings
+
+[Handout : Findings Table]({{ site.url }}/assets/img/hitachi/FindingsTable.pdf)
+
+
+
+
+<!-- The Design Journey
+
+1. Critical Function Prototype:
+
+2. Critical Experience Prototype:
+
+3. Dark Horse Prototype 1:
+
+4. Dark Horse Prototype 2
+
+5. Funky System Prototype
+
+6. Functional System Prototype -->

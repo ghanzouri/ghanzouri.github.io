@@ -1,0 +1,30 @@
+---
+layout: post
+title:  Startup Entrepreneurship
+date:   2017-08-23 13:32:20 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+img: /thinclab/thinclab.jpg # Add image post (optional)
+tags: [Entrepreneurship, Startup, Innovation, Design Thinking, Mechatronics, Robotics, Catia, CAD, SQL]
+author: # Add name author (optional)
+---
+
+I worked for 6 months for a personal project at ThincLab, a start-up incubator.
+
+I worked weekly with mentors on Skype or in my office at ThincLab. I learned the different process of ideation and design thinking.
+
+The project involved product design, mechatronics, robotics, electronics and SQL database.
+
+I have established a [Business Model Canvas]({{ site.url }}/assets/img/thinclab/BusinessModelCanvas.pdf), a market study on [SurveyMonkey][survey] that generated more than 400 responses and a storyboard.
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/thinclab/bmc.jpg)
+{: refdef}
+<center> Fig. 1: Business Model Canvas </center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/thinclab/sm.jpg)
+{: refdef}
+<center> Fig. 2: SurveyMonkey on usage of CDs </center>
+
+
+[survey]: https://fr.surveymonkey.com/r/X93DGZV

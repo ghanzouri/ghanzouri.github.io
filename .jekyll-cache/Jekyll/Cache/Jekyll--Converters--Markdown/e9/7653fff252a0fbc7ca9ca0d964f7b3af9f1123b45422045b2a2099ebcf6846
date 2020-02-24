@@ -1,0 +1,61 @@
+I"Z<h4 id="october-2019--june-2020-stanford-ca">October 2019 – June 2020, Stanford, CA</h4>
+
+<p><strong><em>Work In Progress</em></strong></p>
+
+<p>I am part of ME310: Engineering Design, Entrepreneurship and Innovation, a design methodology class at Stanford University.
+I am working as a student collaborator in partnership with Tokyo Tech, Japan, on the <a href="http://our310.stanford.edu/index.php/Projects/HomePage#Hitachi_America">Hitachi America project</a> to redesign a safe, enjoyable, and reliable food supply chain and procurement experience for elderly who live in typical asian cities..</p>
+
+<p>We are currently working in the <strong>prototype and user-testing phase.</strong></p>
+
+<p>In the first quarter, we prototyped</p>
+
+<p><img src="/assets/img/hitachi/fig1.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 1: Winter quarter handout </center>
+
+<p>The Design Journey
+In order to get to RISE, our team went through a series of prototypes and iterations of design, testing with real wheel chair users at each stage, and incorporating their feedback into the next iteration of the design.</p>
+
+<ol>
+  <li>Critical Function Prototype:
+In this prototype, we were tasked with identifying one critical function that could be prototyped and tested for validity.</li>
+</ol>
+
+<p>We chose to try the concept of Particle Jamming, by using coffee grounds and vacuum to provide a clamping mechanism for the wheelchair wheels.</p>
+
+<p>Thus, by using coffee bags we jammed the wheels of a trolley and tried to measure relative displacement of the wheels during on-road conditions as well as sudden deceleration as shown in the picture.</p>
+
+<ol>
+  <li>Critical Experience Prototype:
+In this prototype, we were tasked with identifying one critical factor that influences user experience, and prototype user interaction with the system.</li>
+</ol>
+
+<p>We chose to test interaction of wheelchair users with autonomous taxis and study which was the best way to provide meaningful information and instructions for them to use the system. We provided them with 4 main options - Written Instructions, Signs on the floor, a voice AI and an instructional video and observed their interaction with the system.</p>
+
+<ol>
+  <li>Dark Horse Prototype 1:
+In the dark horse prototype we were encouraged to think of out of the box and wild ideas that we would usually not consider a viable option, and try to prototype that very idea and surprise ourselves. In the first version of this prototype we came up with the idea of a scooper door mechanism where a rocker would tilt in order to let wheel chair users on to itself.</li>
+</ol>
+
+<p>We tested both a passive and active rocker system and made wheelchair users judge which of the two was safer and more comfortable for them. In the passive system, we allowed the wheelchair users to tilt the rocker themselves and get on to it and balance themselves. In the active system, we attach ratchet straps to their wheels as they climb aboard and use the ratcheting mechanism to help pull themselves up the rocker.</p>
+
+<p>This paved the way to understand that we needed some sort of assisted entry mechanism.</p>
+
+<ol>
+  <li>Dark Horse Prototype 2
+Once again, to think of out of the box ideas, we decided to target a specific user group - wheelchair users with service animals. We decided to come up with a way to transport service animals as well in these autonomous taxis and delivered two mechanisms that were collapsible.</li>
+</ol>
+
+<p>This allowed wheelchair users to not run over their service animals as they maneuver themselves in the vehicle.</p>
+
+<ol>
+  <li>Funky System Prototype
+In the funky system prototype, we came up with a clamping mechanism for wheelchairs within the autonomous vehicle. The purpose of this prototype was to develop an entire system that would provide the necessary functionality but at the same time needn’t be the high fidelity that is required to release it as a solution.</li>
+</ol>
+
+<p>We revisited the idea of particle jamming and tried clamping the wheels of the wheelchair by using particle jammed coffee bags held against the wheel using car jacks. We then pull-tested the wheelchair to see how much force it could withstand before being released.</p>
+
+<ol>
+  <li>Functional System Prototype
+In the functional system prototype, we improved on our previous design further, realizing that particle jamming did not give us the necessary clamping we had hoped for. So we used a system of linear actuators to provide the clamping force and used bicycle brake pads to pinch the back of the wheels as shown in the picture. Moreover, we had an artificial floor with divots on them to hold the wheelchair better in place.</li>
+</ol>
+:ET
