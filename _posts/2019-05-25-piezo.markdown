@@ -1,28 +1,129 @@
 ---
 layout: post
-title:  Piezoelectric speaker design
-date:   2017-08-22 13:32:20 +0300
+title:  Piezoelectric Speaker Design
+date:   2019-05-10 13:32:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: /piezo/post.jpg # Add image post (optional)
-tags: [Blog, Mountains, Sport]
+tags: [Product Design, Electronics, Catia, CAD, 3Dprinting, prototyping, Simulation, Abaqus, Research, Project]
 author: # Add name author (optional)
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+At Arts et Métiers Paris, a French Mechanical and Industrial Engineer School, I conducted a research project where we had to industrial design a piezoelectric speaker.
 
-Jekyll also offers powerful support for code snippets:
+First, we carried a benchmarking, an analysis of existing on the market. The 3D printing material was PLA. We then studied in-depth this material during lab sessions. These sessions allowed us to understand the behaviour of this material and thus predict its impact on our speaker structure. Finally, we were able to design the speaker on Catia and conduct simulations on Abaqus in order to study the constraints that will be applied.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+# I- Material characterization
+## a. Cup Material
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+To choose the material, we realized multiple test and used the materials at our disposal which were plastic (glass and plastic plates), cardboard and polystyrene.
+The test was done on a mobile phone and then amplified by an amplifier.
+After several tests of the piezoelectric available, we opted for a cardboard material. The resulting sound is pleasant and in the bass.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## b. PLA material
+
+During the lab sessions, we studied in-depth the PLA. We performed a thermal analysis by **DSC**, a study of the mechanical behavior by traction and a thermo-mechanical analysis by **DMA**.
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig2.jpg)
+{: refdef}
+<center> Fig. 1: DSC analysis in amorphous state </center>
+
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig3.jpg)
+{: refdef}
+<center> Fig. 2: DSC analysis in semi-crystalline state </center>
+
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig4.jpg)
+{: refdef}
+<center> Fig. 3: PLA test in tensile test. </center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig5.jpg)
+{: refdef}
+<center> Fig. 4: DMA analysis. </center>
+
+
+>These experiments have shown that PLA exhibits a viscoelastic characteristic in the amorphous state, beyond the glass transition temperature. This is particularly interesting if you want to increase the elongation at break. Furthermore, at the state semi-crystalline, there is little influence of temperature on its mechanical properties.
+Thus, in the case of a PLA stressed at high temperature, it is therefore advisable to subject it to annealing with slow cooling so that it partly retains its mechanical characteristics.
+>>Another aspect to emphasize is that, when we carry out the 3D printing process, the material is deposited before depositing at very high temperatures, but that at the exit, a brutal cooling process begins towards room temperature. This cooling rate does not allow them to form crystals. Heating the plate can therefore reduce the temperature gradient and thus obtain a cooling time allowing the chains to form crystals and take advantage of these favorable mechanical characteristics.
+
+>>Furthermore, the heating of the plate also makes it possible to circumvent the phenomenon of warping which corresponds to a deformation of the edges of a part printed in 3D which results in a separation of the part.
+
+# II- Design
+## a. Vision
+We had in mind different criteria for our speaker:
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig6.jpg)
+{: refdef}
+<center> Fig. 5: Speaker design. </center>
+
+* **Aesthetics**:
+An original but minimalist design, simple but elegant because we decided to place it as a decorative element of the house, which is not limited to being a loud speaker, but the design also allows to style all the spaces where it is placed.
+
+* **Functionality**:
+Two angled directions for sound. We want the sound to be well directed and we can get good stereo sound between the two piezoelectric, which is why the importance of the design for the final acoustic result.
+
+## b. Catia sketch
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig7.jpg)
+{: refdef}
+<center> Fig. 6: Speaker Catia design. </center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig8.jpg)
+{: refdef}
+<center> Fig. 7: Cup and cover. </center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig9.jpg)
+{: refdef}
+<center> Fig. 8: Cover and speaker. </center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig10.jpg)
+{: refdef}
+<center> Fig. 9: Top view and bottom view of the speaker. </center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig11.jpg)
+{: refdef}
+<center> Fig. 10: Isometric view. </center>
+
+
+# III- Abaqus simulation
+
+We carried out several simulations on Abaqus in order to refine our prototypes. We observed the effects of different constraints applied in order to iterate more quickly on improved prototypes.
+
+In addition, during the realization of all these analyses before the manufacture of many prototypes, we can carry out numerous numerical tests and, by reducing the waste, we can by response a reduction in the overall costs of starting an innovation project .
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig12.jpg)
+{: refdef}
+<center> Fig. 11: Speaker mesh on Abaqus. </center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig13.jpg)
+{: refdef}
+<center> Fig. 12: Speaker mesh on Abaqus. </center>
+
+# IV- Acoustic tests
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig14.jpg)
+{: refdef}
+<center> Fig. 13: Speaker acoustic tests. </center>
+
+We carried out frequency adjustment by a white noise method.
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig15.jpg)
+{: refdef}
+<center> Fig. 14: Vertical sound emission. </center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig16.jpg)
+{: refdef}
+<center> Fig. 15: Angled sound emission. </center>

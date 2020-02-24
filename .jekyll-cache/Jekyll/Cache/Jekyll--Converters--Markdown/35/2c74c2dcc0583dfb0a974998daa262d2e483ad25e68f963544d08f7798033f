@@ -1,0 +1,18 @@
+I"ó<p>At Arts et MÃ©tiers Paris, a French Mechanical and Industrial Engineer School, I conducted a research project where we had to industrial design a piezoelectric speaker.</p>
+
+<p>First, we carried a benchmarking, an analysis of existing on the market. The 3D printing material was PLA. We then studied in-depth this material during lab sessions. These sessions allowed us to understand the behaviour of this material and thus predict its impact on our speaker structure. Finally, we were able to design the speaker on Catia and conduct simulations on Abaqus in order to study the constraints that will be applied.</p>
+
+<h2 id="material-characterization">Material characterization</h2>
+<h3 id="a-cup-material">a. Cup Material</h3>
+
+<p>To choose the material, we realized multiple test and used the materials at our disposal which were plastic (glass and plastic plates), cardboard and polystyrene.
+The test was done on a mobile phone and then amplified by an amplifier.
+After several tests of the piezoelectric available, we opted for a cardboard material. The resulting sound is pleasant and in the bass.</p>
+
+<h3 id="b-pla-material">b. PLA material</h3>
+
+<p>During the lab sessions, we studied in-depth the PLA. We performed a thermal analysis by <strong>DSC</strong>, a study of the mechanical behavior by traction and a thermo-mechanical analysis by <strong>DMA</strong>.</p>
+
+<p style="text-align: center;"><img src="/assets/img/piezo/fig2.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 1: Business Model Canvas </center>
+:ET

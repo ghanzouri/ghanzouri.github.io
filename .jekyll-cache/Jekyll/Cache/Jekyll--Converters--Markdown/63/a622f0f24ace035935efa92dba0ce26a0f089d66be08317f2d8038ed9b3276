@@ -1,0 +1,91 @@
+I"_<p>At Arts et Métiers Paris, a French Mechanical and Industrial Engineer School, I conducted a research project where we had to industrial design a piezoelectric speaker.</p>
+
+<p>First, we carried a benchmarking, an analysis of existing on the market. The 3D printing material was PLA. We then studied in-depth this material during lab sessions. These sessions allowed us to understand the behaviour of this material and thus predict its impact on our speaker structure. Finally, we were able to design the speaker on Catia and conduct simulations on Abaqus in order to study the constraints that will be applied.</p>
+
+<h1 id="i--material-characterization">I- Material characterization</h1>
+<h2 id="a-cup-material">a. Cup Material</h2>
+
+<p>To choose the material, we realized multiple test and used the materials at our disposal which were plastic (glass and plastic plates), cardboard and polystyrene.
+The test was done on a mobile phone and then amplified by an amplifier.
+After several tests of the piezoelectric available, we opted for a cardboard material. The resulting sound is pleasant and in the bass.</p>
+
+<h2 id="b-pla-material">b. PLA material</h2>
+
+<p>During the lab sessions, we studied in-depth the PLA. We performed a thermal analysis by <strong>DSC</strong>, a study of the mechanical behavior by traction and a thermo-mechanical analysis by <strong>DMA</strong>.</p>
+
+<p style="text-align: center;"><img src="/assets/img/piezo/fig2.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 1: DSC analysis in amorphous state </center>
+
+<p style="text-align: center;"><img src="/assets/img/piezo/fig3.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 2: DSC analysis in semi-crystalline state </center>
+
+<p style="text-align: center;"><img src="/assets/img/piezo/fig4.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 3: PLA test in tensile test. </center>
+
+<p style="text-align: center;"><img src="/assets/img/piezo/fig5.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 4: DMA analysis. </center>
+
+<blockquote>
+  <p>These experiments have shown that PLA exhibits a viscoelastic characteristic in the amorphous state, beyond the glass transition temperature. This is particularly interesting if you want to increase the elongation at break. Furthermore, at the state semi-crystalline, there is little influence of temperature on its mechanical properties.
+Thus, in the case of a PLA stressed at high temperature, it is therefore advisable to subject it to annealing with slow cooling so that it partly retains its mechanical characteristics.</p>
+  <blockquote>
+    <p>Another aspect to emphasize is that, when we carry out the 3D printing process, the material is deposited before depositing at very high temperatures, but that at the exit, a brutal cooling process begins towards room temperature. This cooling rate does not allow them to form crystals. Heating the plate can therefore reduce the temperature gradient and thus obtain a cooling time allowing the chains to form crystals and take advantage of these favorable mechanical characteristics.</p>
+  </blockquote>
+</blockquote>
+
+<blockquote>
+  <blockquote>
+    <p>Furthermore, the heating of the plate also makes it possible to circumvent the phenomenon of warping which corresponds to a deformation of the edges of a part printed in 3D which results in a separation of the part.</p>
+  </blockquote>
+</blockquote>
+
+<h1 id="ii--design">II- Design</h1>
+<h2 id="a-vision">a. Vision</h2>
+<p>We had in mind different criteria for our speaker:</p>
+<p style="text-align: center;"><img src="/assets/img/piezo/fig6.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 5: Speaker design. </center>
+
+<ul>
+  <li>
+    <p><strong>Aesthetics</strong>:
+An original but minimalist design, simple but elegant because we decided to place it as a decorative element of the house, which is not limited to being a loud speaker, but the design also allows to style all the spaces where it is placed.</p>
+  </li>
+  <li>
+    <p><strong>Functionality</strong>:
+Two angled directions for sound. We want the sound to be well directed and we can get good stereo sound between the two piezoelectric, which is why the importance of the design for the final acoustic result.</p>
+  </li>
+</ul>
+
+<h2 id="b-catia-sketch">b. Catia sketch</h2>
+<p style="text-align: center;"><img src="/assets/img/piezo/fig7.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 6: Speaker Catia design. </center>
+
+<p style="text-align: center;"><img src="/assets/img/piezo/fig8.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 7: Cup and cover. </center>
+
+<p style="text-align: center;"><img src="/assets/img/piezo/fig9.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 8: Cover and speaker. </center>
+
+<p style="text-align: center;"><img src="/assets/img/piezo/fig10.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 9: Top view and bottom view of the speaker. </center>
+
+<p style="text-align: center;"><img src="/assets/img/piezo/fig11.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 10: Isometric view. </center>
+
+<h1 id="iii--abaqus-simulation">III- Abaqus simulation</h1>
+
+<p>We carried out several simulations on Abaqus in order to refine our prototypes. We observed the effects of different constraints applied in order to iterate more quickly on improved prototypes.</p>
+
+<p>In addition, during the realization of all these analyses before the manufacture of many prototypes, we can carry out numerous numerical tests and, by reducing the waste, we can by response a reduction in the overall costs of starting an innovation project .</p>
+
+<p style="text-align: center;"><img src="/assets/img/piezo/fig12.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 11: Speaker mesh on Abaqus. </center>
+
+<p style="text-align: center;"><img src="/assets/img/piezo/fig13.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 12: Speaker mesh on Abaqus. </center>
+
+<h1 id="iv--acoustic-tests">IV- Acoustic tests</h1>
+
+<p style="text-align: center;"><img src="/assets/img/piezo/fig14.jpg" alt="Yosh Ginsu" /></p>
+<center> Fig. 12: Speaker mesh on Abaqus. </center>
+:ET
