@@ -1,0 +1,34 @@
+I"`<h1 id="design-of-the-package-delivery-system-at-dassault-uav-challenge">Design of the package delivery system at Dassault UAV Challenge</h1>
+<h4 id="september-2019--may-2019-paris--france">September 2019 – May 2019, Paris , France</h4>
+
+<p>The Dassault UAV Challenge is an aerospace student competition dedicated to Unmanned Air Vehicle (UAV) domain. It was organized by Dassault Aviation. The challenge was based on the same hexacopter platform for each team (to be assembled with components provided by Dassault Aviation).</p>
+
+<p>Each team had to design a home-made package delivery system and integrate it in the hexacopter. The main part of the development focused on the system integration, the real-time software development and flight tests. The challenge lasted 7 months to perform the whole development and a 2-days competition final in May with several tests and workshops had to be completed.</p>
+
+<p>To perform the competition, each team had to design and integrate its own package delivery system in its hexacopter, including:</p>
+<ul>
+  <li>a storage system to carry and release three packages on demand</li>
+  <li>associated embedded algorithms to deliver autonomously and precisely each package on pre-defined target points</li>
+</ul>
+
+<p>In our team, I was personally in charge in designing the package delivery system.</p>
+
+<h1 id="i-package-delivery-system">I.	Package delivery system</h1>
+<h2 id="a-description-of-the-delivery-system">a.	Description of the delivery system</h2>
+
+<p>The system is composed in two parts.</p>
+
+<p>The first one is a cylindrical compartment which will contain the 3 packages and 1 empty space. This cylinder rotates inside the external fixed cylinder by the means of a servomotor located at the base of the drone. This servo can rotate up to 270°.</p>
+
+<p>On the other hand, this internal cylinder is guided in rotation by means of an external cylindrical base which is fixed to the drone. A cover attached to the outer cylinder is located at the base of the release system and has a door actioned by a servomotor.</p>
+
+<p>When the camera detects a cross, the compartment (the inner cylinder) rotates and places the package corresponding to the colour of the cross above the door. Then the servomotor opens the door and drops the package on the cross.</p>
+
+<p><img src="/assets/img/dassault/fig1.jpg" alt="Yosh Ginsu" /></p>
+<center> _Fig. 1: External cylinder with servo slot that rotates the internal cylinder_ </center>
+<p><em>Fig. 1: External cylinder with servo slot that rotates the internal cylinder</em></p>
+
+<p>This text is centered.  And clean.  Amen.</p>
+
+<p>8-bit disrupt food truck polaroid, viral you probably haven’t heard of them chillwave next level letterpress williamsburg etsy tthammock intelligentsia. Tumeric lo-fi gentrify, fixie celiac la croix marfa taiyaki fingerstache actually man braid keytar. Brunch coloring book succulents church-key umami affogato. Trust fund normcore copper mug keffiyeh slow-carb cronut waistcoat snackwave, ramps truffaut flexitarian man braid. Celiac flexitarian authentic hashtag wayfarers. Next level pitchfork scenester godard. Salvia etsy edison bulb knausgaard poke jianbing actually. Mlkshk retro cardigan photo booth swag. Occupy shaman austin, meditation green juice flannel succulents twee. Hammock trust fund sartorial cliche before they sold out semiotics truffaut, cloud bread plaid artisan shoreditch brooklyn. Shoreditch air plant asymmetrical DIY. Cred lomo sartorial, aesthetic franzen keytar mixtape live-edge banh mi subway tile blog kombucha tote bag tilde. Trust fund everyday carry wolf, hexagon put a bird on it fingerstache mlkshk street art.</p>
+:ET

@@ -1,20 +1,73 @@
 ---
 layout: post
-title:  I conquer the Himalayas
-date:   2017-08-25 13:32:20 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: post-1.jpg # Add image post (optional)
-tags: [Blog, Mountains]
-author: Adam Neilson # Add name author (optional)
+title:  UAV Package Delivery System
+date:   2019-05-17 13:32:20 +0300
+description: #You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+img: /dassault/post-1.jpg # Add image post (optional)
+tags: [Product Design, Mechatronics, Catia, CAD, 3Dprinting]
+author: Ilies Ghanzouri # Add name author (optional)
 ---
-Vaporware snackwave stumptown, small batch tattooed try-hard prism fanny pack 3 wolf moon edison bulb tofu hot chicken vice. Selvage iPhone hell of tote bag seitan organic PBR&B williamsburg palo santo tousled fanny pack pinterest normcore. Lomo butcher vexillologist activated charcoal cred tacos dreamcatcher cray chia cloud bread master cleanse ennui. Copper mug hella iceland occupy venmo. Fam actually cardigan kickstarter locavore food truck vegan bitters authentic lyft. Vaporware listicle keffiyeh adaptogen. Cloud bread stumptown swag la croix polaroid pickled. Next level yuccie four dollar toast polaroid. Portland chicharrones craft beer helvetica 3 wolf moon.
 
-Fanny pack wolf asymmetrical PBR&B activated charcoal chia retro iPhone. Everyday carry artisan live-edge bespoke ramps. Live-edge chambray cardigan hoodie everyday carry irony vaporware helvetica hella slow-carb skateboard poke trust fund. Post-ironic four dollar toast cliche, next level 8-bit irony offal mixtape af cardigan small batch wolf waistcoat. Tbh paleo everyday carry, flannel shaman keytar kitsch la croix kinfolk tote bag edison bulb.
+# Design of the package delivery system at Dassault UAV Challenge
+#### September 2019 – May 2019, Paris , France
 
-> Snackwave chillwave seitan whatever, flannel wolf vinyl occupy activated charcoal succulents waistcoat. Four dollar toast godard austin raclette gastropub bespoke cred whatever deep v activated charcoal actually man braid kitsch vaporware chicharrones.
+The Dassault UAV Challenge is an aerospace student competition dedicated to Unmanned Air Vehicle (UAV) domain. It was organized by Dassault Aviation. The challenge was based on the same hexacopter platform for each team (to be assembled with components provided by Dassault Aviation).
 
-Taxidermy shaman irony williamsburg bespoke. Freegan ugh mumblecore selfies, shabby chic neutra everyday carry. Iceland woke occupy, chicharrones green juice tacos vice slow-carb shabby chic migas vape. Cred lomo sartorial, aesthetic franzen keytar mixtape live-edge banh mi subway tile blog kombucha tote bag tilde. Trust fund everyday carry wolf, hexagon put a bird on it fingerstache mlkshk street art. Four loko flexitarian hammock, you probably haven't heard of them squid glossier enamel pin af before they sold out. Jianbing narwhal chartreuse helvetica 3 wolf moon quinoa. 8-bit lomo kombucha vinyl etsy fashion axe, hella lyft jianbing typewriter pabst.
+Each team had to design a home-made package delivery system and integrate it in the hexacopter. The main part of the development focused on the system integration, the real-time software development and flight tests. The challenge lasted 7 months to perform the whole development and a 2-days competition final in May with several tests and workshops had to be completed.
 
-![Yosh Ginsu]({{site.baseurl}}/assets/img/yosh-ginsu.jpg)
+To perform the competition, each team had to design and integrate its own package delivery system in its hexacopter, including:
+* a storage system to carry and release three packages on demand
+* associated embedded algorithms to deliver autonomously and precisely each package on pre-defined target points
 
-8-bit disrupt food truck polaroid, viral you probably haven't heard of them chillwave next level letterpress williamsburg etsy tthammock intelligentsia. Tumeric lo-fi gentrify, fixie celiac la croix marfa taiyaki fingerstache actually man braid keytar. Brunch coloring book succulents church-key umami affogato. Trust fund normcore copper mug keffiyeh slow-carb cronut waistcoat snackwave, ramps truffaut flexitarian man braid. Celiac flexitarian authentic hashtag wayfarers. Next level pitchfork scenester godard. Salvia etsy edison bulb knausgaard poke jianbing actually. Mlkshk retro cardigan photo booth swag. Occupy shaman austin, meditation green juice flannel succulents twee. Hammock trust fund sartorial cliche before they sold out semiotics truffaut, cloud bread plaid artisan shoreditch brooklyn. Shoreditch air plant asymmetrical DIY. Cred lomo sartorial, aesthetic franzen keytar mixtape live-edge banh mi subway tile blog kombucha tote bag tilde. Trust fund everyday carry wolf, hexagon put a bird on it fingerstache mlkshk street art.
+In our team, I was personally in charge in designing the package delivery system.
+
+# I.	Package delivery system
+## a.	Description of the delivery system
+
+The system is composed in two parts.
+
+The first one is a cylindrical compartment which will contain the 3 packages and 1 empty space. This cylinder rotates inside the external fixed cylinder by the means of a servomotor located at the base of the drone. This servo can rotate up to 270°.
+
+On the other hand, this internal cylinder is guided in rotation by means of an external cylindrical base which is fixed to the drone. A cover attached to the outer cylinder is located at the base of the release system and has a door actioned by a servomotor.
+
+When the camera detects a cross, the compartment (the inner cylinder) rotates and places the package corresponding to the colour of the cross above the door. Then the servomotor opens the door and drops the package on the cross.
+
+![Yosh Ginsu]({{site.baseurl}}/assets/img/dassault/fig1.jpg)
+<center> Fig. 1: External cylinder with servo slot that rotates the internal cylinder </center>
+
+![Yosh Ginsu]({{site.baseurl}}/assets/img/dassault/fig2.jpg)
+<center> Fig. 2: Cover for the external cylinder </center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/dassault/fig3.jpg)
+{: refdef}
+<center> Fig. 3: Internal cylinder </center>
+
+## b.	Packages description
+
+The packages are defined as follows:
+*	Rectangular prism: height 80mm, base 30x30mm
+*	3 colours: red, yellow, blue
+*	Free choice of material (but homogeneous)
+*	No weight constraint
+*	No parachute
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a
