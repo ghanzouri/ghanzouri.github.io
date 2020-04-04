@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Design UAV Package Delivery System 
+title:  Design UAV Package Delivery System
 date:   2019-05-17 13:32:20 +0300
 description: #You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: /dassault/post-1.jpg # Add image post (optional)
@@ -124,32 +124,42 @@ The function **move_servo_deg**  allowed us to angularly control in rotation the
 # II.	Final result
 
 {:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/dassault/fig19.jpg)
+{: refdef}
+<center> Fig. 13: Using the bandsaw to realise an internal clamp for the PVC </center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/dassault/fig22.jpg)
+{: refdef}
+<center> Fig. 14: Lathing the PVC external cylinder </center>
+
+{:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/dassault/fig9.jpg)
 {: refdef}
-<center> Fig. 13: Internal cylinder containing the 3 packages </center>
+<center> Fig. 15: Internal cylinder containing the 3 packages </center>
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/dassault/fig10.jpg)
 {: refdef}
-<center> Fig. 14: Internal cylinder mounted on the servo </center>
+<center> Fig. 16: Internal cylinder mounted on the servo </center>
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/dassault/fig11.jpg)
 {: refdef}
-<center> Fig. 15: Fully assembled package delivery system </center>
+<center> Fig. 17: Fully assembled package delivery system </center>
 
 <div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/LjffBHUffP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-<center> Fig. 16: Final design demonstration in video </center>
+<center> Fig. 18: Final design demonstration in video </center>
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/dassault/fig13.jpg)
 {: refdef}
-<center> Fig. 17: Group picture competition final at Lenk, Switzerland (beige sweater) </center>
+<center> Fig. 19: Group picture competition final at Lenk, Switzerland (beige sweater) </center>
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/dassault/fig14.jpg)
 {: refdef}
-<center> Fig. 18: Lenk, Switzerland: location of the final competition </center>
+<center> Fig. 20: Lenk, Switzerland: location of the final competition </center>
 
 **Relevant websites:**
 
