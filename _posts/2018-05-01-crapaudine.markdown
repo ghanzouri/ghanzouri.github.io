@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  Manufacturing project : crapaudine
+title:  Manufacturing casting crapaudine project
 date:   2018-05-01 13:32:20 +0300
 description: #You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: /crapaudine/crapaudine.jpg # Add image post (optional)
 tags: [Manufacturing, Product Design, Catia, CAD, Lost Foam, Sand casting, CNC, Milling, Lathe, CMM]
 author: Ilies Ghanzouri # Add name author (optional)
+permalink: crapau
 ---
 
 # Manufacturing project of the crapaudine
