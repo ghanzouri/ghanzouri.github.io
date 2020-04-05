@@ -20,8 +20,11 @@ We conducted benchmarking of existing piezoelectric speakers. We made extensive 
 {: refdef}
 <center> Fig. 1: Piezoelectric speakers benchmarking </center>
 
-ILS Piezo Horn Speaker : https://www.amazon.fr/ILS-Speaker-Tweeter-Piezoelectric-Loudspeaker/dp/B07GXQYNF7/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=piezo+speaker&qid=1553167096&s=computers&sr=1-1-catcorr
-Boss Audio Systems CH4230 : https://www.amazon.fr/Boss-Audio-Systems-CH4230-enceinte/dp/B0032FOKA6/ref=sr_1_4?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=piezo+speaker&qid=1557513790&s=computers&sr=1-4-catcorr
+[ILS Piezo Horn Speaker](https://www.amazon.fr/ILS-Speaker-Tweeter-Piezoelectric-Loudspeaker/dp/B07GXQYNF7/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=piezo+speaker&qid=1553167096&s=computers&sr=1-1-catcorr)
+
+[Boss Audio Systems CH4230](https://www.amazon.fr/Boss-Audio-Systems-CH4230-enceinte/dp/B0032FOKA6/ref=sr_1_4?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=piezo+speaker&qid=1557513790&s=computers&sr=1-4-catcorr)
+
+
 
 From our research, we found the following speakers patent designs.
 {:refdef: style="text-align: center;"}
