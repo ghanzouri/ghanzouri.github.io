@@ -24,11 +24,9 @@ We conducted benchmarking of existing piezoelectric speakers. We made extensive 
 
 [Boss Audio Systems CH4230](https://www.amazon.fr/Boss-Audio-Systems-CH4230-enceinte/dp/B0032FOKA6/ref=sr_1_4?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=piezo+speaker&qid=1557513790&s=computers&sr=1-4-catcorr)
 
-
-
 From our research, we found the following speakers patent designs.
 {:refdef: style="text-align: center;"}
-![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig17.jpg)
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig18.jpg)
 {: refdef}
 <center> Fig. 2: Speakers design patents </center>
 
@@ -83,7 +81,7 @@ To identify the various risks we used the following criteria:
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig26.jpg)
 {: refdef}
-<center> Fig. 8: FMECA table </center>
+<center> Fig. 9: FMECA table </center>
 
 
 # III- Material characterization
@@ -106,13 +104,13 @@ During the lab sessions, we studied in-depth the PLA. We performed a thermal ana
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig2.jpg)
 {: refdef}
-<center> Fig. 2: DSC analysis in amorphous state </center>
+<center> Fig. 10: DSC analysis in amorphous state </center>
 
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig3.jpg)
 {: refdef}
-<center> Fig. 2: DSC analysis in semi-crystalline state </center>
+<center> Fig. 11: DSC analysis in semi-crystalline state </center>
 
 The DSC is a thermal analysis which consists in evaluating the difference in heat flux between a capsule containing the sample studied (PLA in our case) and an empty capsule constituting the reference element. This experiment is carried out under inert gas (nitrogen). We thus observe the evolution of this difference in flow; the significant changes allow us to identify the phase transitions and the temperatures corresponding to such transitions. Thus, we note the Tg (glass transition temperature), possibly the Tc (cold crystallization temperature), and Tf (melting temperature) for two samples of PLA (annealed and non-annealed) during our study.
 The first thermal transfer, in this case, shows a small glass transition (Tg) around 58 ° C with a cold crystallization starting around 90 ° C and a fusion with a peak temperature of around 150 ° C. The second heat transfer to this sample after cooling shows a higher Tg around the same temperature as the first heat, but no signs of cold crystallization or melting. The results suggest that PLA had a certain amount of amorphous structure, but because the sample undergoes cold crystallization or crystalline perfection immediately before melting, the amount of crystal structure in the sample, as received, is difficult to determine. Modulated DSC, however, is the ideal tool for studying the crystal concentration versus the amorphous concentration of a material, as received, when there is cold crystallization or crystalline perfection.
@@ -122,7 +120,7 @@ The first thermal transfer, in this case, shows a small glass transition (Tg) ar
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig4.jpg)
 {: refdef}
-<center> Fig. 3: PLA test in tensile test. </center>
+<center> Fig. 12: PLA test in tensile test. </center>
 
 Before characterizing the mechanical behavior by traction of the polymer, we saw in LABS that it has a low melting temperature of 180 ° C approximately and a Tg of approximately 60 ° C. That is to say that from 60 ° C the internal molecules begin to move and the part begins to "soften". This is bad for parts that need to be exposed to the sun, but it is an advantage if they can be printed with an open printer and a temperature bass with good grip. In a tensile test we can see that the PLA resists the static load in a very high way, on the other hand it does not have much deformation before the rupture, i.e. it is not ductile
 
@@ -131,7 +129,7 @@ Before characterizing the mechanical behavior by traction of the polymer, we saw
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig5.jpg)
 {: refdef}
-<center> Fig. 4: DMA analysis. </center>
+<center> Fig. 13: DMA analysis. </center>
 
 DMA (dynamic mechanical analysis) is a method for measuring the viscoelasticity of materials. A DMA test generally makes it possible to characterize viscoelastic materials mechanically. During a DMA test, a sinusoidal displacement is imposed on a test piece. Sensors make it possible to record the force resulting from this displacement.
 
@@ -150,7 +148,7 @@ We had in mind different criteria for our speaker:
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig6.jpg)
 {: refdef}
-<center> Fig. 5: Speaker design. </center>
+<center> Fig. 14: Speaker design. </center>
 
 * **Aesthetics**:
 An original but minimalist design, simple but elegant because we decided to place it as a decorative element of the house, which is not limited to being a loud speaker, but the design also allows to style all the spaces where it is placed.
@@ -162,27 +160,27 @@ Two angled directions for sound. We want the sound to be well directed and we ca
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig7.jpg)
 {: refdef}
-<center> Fig. 6: Speaker Catia design. </center>
+<center> Fig. 15: Speaker Catia design. </center>
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig8.jpg)
 {: refdef}
-<center> Fig. 7: Cup and cover. </center>
+<center> Fig. 16: Cup and cover. </center>
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig9.jpg)
 {: refdef}
-<center> Fig. 8: Cover and speaker. </center>
+<center> Fig. 17: Cover and speaker. </center>
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig10.jpg)
 {: refdef}
-<center> Fig. 9: Top view and bottom view of the speaker. </center>
+<center> Fig. 18: Top view and bottom view of the speaker. </center>
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig11.jpg)
 {: refdef}
-<center> Fig. 10: Isometric view. </center>
+<center> Fig. 19: Isometric view. </center>
 
 
 # V- Abaqus simulation
@@ -194,22 +192,22 @@ In addition, during the realization of all these analyses before the manufacture
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig12.jpg)
 {: refdef}
-<center> Fig. 11: Speaker mesh on Abaqus. </center>
+<center> Fig. 20: Speaker mesh on Abaqus. </center>
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig13.jpg)
 {: refdef}
-<center> Fig. 12: Speaker mesh on Abaqus. </center>
+<center> Fig. 21: Speaker mesh on Abaqus. </center>
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig27.jpg)
 {: refdef}
-<center> Fig. 12: Materials definition on Abaqus. </center>
+<center> Fig. 22: Materials definition on Abaqus. </center>
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig28.jpg)
 {: refdef}
-<center> Fig. 12: Python script that imports CATIA sketch to speed up ABAQUS modelisation. </center>
+<center> Fig. 23: Python script that imports CATIA sketch to speed up ABAQUS modelisation. </center>
 
 
 # VI- Acoustic tests
@@ -217,16 +215,16 @@ In addition, during the realization of all these analyses before the manufacture
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig14.jpg)
 {: refdef}
-<center> Fig. 13: Speaker acoustic tests. </center>
+<center> Fig. 24: Speaker acoustic tests. </center>
 
 We carried out frequency adjustment by a white noise method.
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig15.jpg)
 {: refdef}
-<center> Fig. 14: Vertical sound emission. </center>
+<center> Fig. 25: Vertical sound emission. </center>
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig16.jpg)
 {: refdef}
-<center> Fig. 15: Angled sound emission. </center>
+<center> Fig. 26: Angled sound emission. </center>
