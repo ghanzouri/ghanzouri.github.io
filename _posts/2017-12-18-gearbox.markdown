@@ -11,3 +11,19 @@ permalink: gearbox
 
 # Design from scratch of a Gearbox
 #### September 2017 – December 2017, Paris, France
+
+# 1. Benchmarking
+
+[Handout : Calculation sheet]({{ site.url }}/assets/img/gearbox/notice.pdf)
+
+# 1. Benchmarking
+
+[Handout : Technical drawing 1]({{ site.url }}/assets/img/gearbox/Mise_en_plan_Calque_1.pdf)
+
+# 1. Benchmarking
+
+[Handout : Technical drawing 2]({{ site.url }}/assets/img/gearbox/Mise_en_plan_Calque_2.pdf)
+
+# 1. Benchmarking
+
+[Handout : Technical drawing 3]({{ site.url }}/assets/img/gearbox/Mise_en_plan_Calque_3.pdf)
