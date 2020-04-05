@@ -11,3 +11,6 @@ permalink: crapaudine
 
 # Manufacturing project of the crapaudine
 #### January 2018 – May 2018, Paris, France
+
+![Yosh Ginsu]({{site.baseurl}}/assets/img/crapaudine/crapaudine.jpg)
+<center> Fig. 1: Fall quarter brochure </center>
