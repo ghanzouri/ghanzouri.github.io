@@ -10,9 +10,80 @@ author: # Add name author (optional)
 
 At Arts et Métiers Paris, a French Mechanical and Industrial Engineer School, I conducted a research project where we had to industrial design a piezoelectric speaker.
 
-First, we carried a benchmarking, an analysis of existing on the market. The 3D printing material was PLA. We then studied in-depth this material during lab sessions. These sessions allowed us to understand the behaviour of this material and thus predict its impact on our speaker structure. Finally, we were able to design the speaker on Catia and conduct simulations on Abaqus in order to study the constraints that will be applied.
+First, we conducted a benchmarking, an analysis of existing on the market. We carried out in-depth FMECA risks analysis and I spearheaded the team progress through design reviews and project management tools such as SWOT, PERT and Gantt chart. Moreover, the 3D printing material was PLA. We studied in-depth this material during lab sessions. These sessions allowed us to understand the behaviour of this material and thus predict its impact on our speaker structure. Finally, I led the design by modeling in Catia V5 the speaker and conducted simulations on Abaqus in order to study the constraints that will be applied.
 
-# I- Material characterization
+# I- Benchmarking
+We conducted benchmarking of existing piezoelectric speakers. We made extensive research at the National Institute of Industrial Property (INPI) and at Espacenet Patent search for already existing piezoelectric speakers. We also found the relevant following products :
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig17.jpg)
+{: refdef}
+<center> Fig. 1: Piezoelectric speakers benchmarking </center>
+
+ILS Piezo Horn Speaker : https://www.amazon.fr/ILS-Speaker-Tweeter-Piezoelectric-Loudspeaker/dp/B07GXQYNF7/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=piezo+speaker&qid=1553167096&s=computers&sr=1-1-catcorr
+Boss Audio Systems CH4230 : https://www.amazon.fr/Boss-Audio-Systems-CH4230-enceinte/dp/B0032FOKA6/ref=sr_1_4?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=piezo+speaker&qid=1557513790&s=computers&sr=1-4-catcorr
+
+From our research, we found the following speakers patent designs.
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig17.jpg)
+{: refdef}
+<center> Fig. 2: Speakers design patents </center>
+
+# II- Project management
+## a. SWOT
+The SWOT is a model that will allow us to identify on the one hand the internal strengths and weaknesses of our group. On the other hand, the SWOT will allow us to analyse the opportunities and threats of the piezoelectric speaker market, these represent the external factors. The SWOT takes into account the current situation which will allow us to have a step back on our project and thus better anticipate our difficulties. For this, we have established strategies that will allow us to overcome them.
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig19.jpg)
+{: refdef}
+<center> Fig. 3: SWOT </center>
+
+## b. Program Evaluation and Review Technique (PERT)
+The PERT chart is a useful tool to analyse and represent all the tasks necessary to complete our project.
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig20.jpg)
+{: refdef}
+<center> Fig. 4: PERT  network chart </center>
+
+## c. GANTT chart
+The Gantt chart is a useful tool to help visualise the time necessary to complete each individual tasks.
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig21.jpg)
+{: refdef}
+<center> Fig. 5: Gantt chart </center>
+
+## d. Failure Mode Effects and Criticality Analysis (FMECA)
+We have determined the risks within each of the steps of our project, we classified them, ranked them according to their level of criticality and their likelihood.
+Then, we judged the level of acceptability and considered preventive solutions to deal with these risks.
+To identify the various risks we used the following criteria:
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig22.jpg)
+{: refdef}
+<center> Fig. 6: Project risk severity scale table</center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig23.jpg)
+{: refdef}
+<center> Fig. 7: Scale table of probability of occurrence of project risks </center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig24.jpg)
+{: refdef}
+<center> Fig. 8: Project risk criticality table </center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig25.jpg)
+{: refdef}
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig26.jpg)
+{: refdef}
+<center> Fig. 8: FMECA table </center>
+
+
+# III- Material characterization
 ## a. Cup Material
 
 To choose the material, we realized multiple test and used the materials at our disposal which were plastic (glass and plastic plates), cardboard and polystyrene.
@@ -21,12 +92,18 @@ After several tests of the piezoelectric available, we opted for a cardboard mat
 
 ## b. PLA material
 
+PLA is a semi-crystalline polymer with a melting temperature of the crystalline phase around 175 ° C and a glassy temperature of amorphous phase around 60 ° C.
+PLA is characterized by very high rigidity and low elongation at break. It is also bio-based and biodegradable.
+The optical properties of PLA are excellent with low haze and high gloss, making it a very shiny and transparent material. It also has a surface tension (around 40 mJ / m2) which makes it easily printable.
+PLA is also very permeable to water vapor, which makes it a material of choice for applications such as textiles or packaging of fresh vegetables but which greatly limits its use in more "tight" packaging, such as example dry products. The elastic modulus of PLA decreases with increasing temperature.
+
 During the lab sessions, we studied in-depth the PLA. We performed a thermal analysis by **DSC**, a study of the mechanical behavior by traction and a thermo-mechanical analysis by **DMA**.
 
+## i. DSC analysis
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig2.jpg)
 {: refdef}
-<center> Fig. 1: DSC analysis in amorphous state </center>
+<center> Fig. 2: DSC analysis in amorphous state </center>
 
 
 {:refdef: style="text-align: center;"}
@@ -34,16 +111,28 @@ During the lab sessions, we studied in-depth the PLA. We performed a thermal ana
 {: refdef}
 <center> Fig. 2: DSC analysis in semi-crystalline state </center>
 
+The DSC is a thermal analysis which consists in evaluating the difference in heat flux between a capsule containing the sample studied (PLA in our case) and an empty capsule constituting the reference element. This experiment is carried out under inert gas (nitrogen). We thus observe the evolution of this difference in flow; the significant changes allow us to identify the phase transitions and the temperatures corresponding to such transitions. Thus, we note the Tg (glass transition temperature), possibly the Tc (cold crystallization temperature), and Tf (melting temperature) for two samples of PLA (annealed and non-annealed) during our study.
+The first thermal transfer, in this case, shows a small glass transition (Tg) around 58 ° C with a cold crystallization starting around 90 ° C and a fusion with a peak temperature of around 150 ° C. The second heat transfer to this sample after cooling shows a higher Tg around the same temperature as the first heat, but no signs of cold crystallization or melting. The results suggest that PLA had a certain amount of amorphous structure, but because the sample undergoes cold crystallization or crystalline perfection immediately before melting, the amount of crystal structure in the sample, as received, is difficult to determine. Modulated DSC, however, is the ideal tool for studying the crystal concentration versus the amorphous concentration of a material, as received, when there is cold crystallization or crystalline perfection.
+
+## ii. Mechanical behavior by traction
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig4.jpg)
 {: refdef}
 <center> Fig. 3: PLA test in tensile test. </center>
 
+Before characterizing the mechanical behavior by traction of the polymer, we saw in LABS that it has a low melting temperature of 180 ° C approximately and a Tg of approximately 60 ° C. That is to say that from 60 ° C the internal molecules begin to move and the part begins to "soften". This is bad for parts that need to be exposed to the sun, but it is an advantage if they can be printed with an open printer and a temperature bass with good grip. In a tensile test we can see that the PLA resists the static load in a very high way, on the other hand it does not have much deformation before the rupture, i.e. it is not ductile
+
+## III. Thermomechanical analysis by DMA
+
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig5.jpg)
 {: refdef}
 <center> Fig. 4: DMA analysis. </center>
+
+DMA (dynamic mechanical analysis) is a method for measuring the viscoelasticity of materials. A DMA test generally makes it possible to characterize viscoelastic materials mechanically. During a DMA test, a sinusoidal displacement is imposed on a test piece. Sensors make it possible to record the force resulting from this displacement.
+
+At 20 ° C, PLA is the semi-crystalline state. There are two phases: the amorphous phase and the crystalline phase. At low temperature, the amorphous phase is glassy (solid) and the crystalline phase is solid (so the modulus is very high). Then we see that the module drops. We are therefore in the presence of the glass transition which affects the amorphous phase: the amorphous phase becomes rubbery and the crystalline phase remains solid. At 100 ° C., a rise in the module is observed: there is recrystallization because the amorphous phase is very little crystalline. In fact, the sample was not given time to crystallize. Thus, during this recrystallization, the proportion of crystalline phase will rise and that of the amorphous phase will decrease: hence the rise of the module. Finally, melting at 160 ° C affects only the crystalline phase. The crystalline phase melts and the amorphous phase is liquid.
 
 
 >These experiments have shown that PLA exhibits a viscoelastic characteristic in the amorphous state, beyond the glass transition temperature. This is particularly interesting if you want to increase the elongation at break. Furthermore, at the state semi-crystalline, there is little influence of temperature on its mechanical properties.
@@ -52,7 +141,7 @@ Thus, in the case of a PLA stressed at high temperature, it is therefore advisab
 
 >>Furthermore, the heating of the plate also makes it possible to circumvent the phenomenon of warping which corresponds to a deformation of the edges of a part printed in 3D which results in a separation of the part.
 
-# II- Design
+# IV- Design
 ## a. Vision
 We had in mind different criteria for our speaker:
 {:refdef: style="text-align: center;"}
@@ -93,7 +182,7 @@ Two angled directions for sound. We want the sound to be well directed and we ca
 <center> Fig. 10: Isometric view. </center>
 
 
-# III- Abaqus simulation
+# V- Abaqus simulation
 
 We carried out several simulations on Abaqus in order to refine our prototypes. We observed the effects of different constraints applied in order to iterate more quickly on improved prototypes.
 
@@ -109,7 +198,18 @@ In addition, during the realization of all these analyses before the manufacture
 {: refdef}
 <center> Fig. 12: Speaker mesh on Abaqus. </center>
 
-# IV- Acoustic tests
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig27.jpg)
+{: refdef}
+<center> Fig. 12: Materials definition on Abaqus. </center>
+
+{:refdef: style="text-align: center;"}
+![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig28.jpg)
+{: refdef}
+<center> Fig. 12: Python script that imports CATIA sketch to speed up ABAQUS modelisation. </center>
+
+
+# VI- Acoustic tests
 
 {:refdef: style="text-align: center;"}
 ![Yosh Ginsu]({{site.baseurl}}/assets/img/piezo/fig14.jpg)
