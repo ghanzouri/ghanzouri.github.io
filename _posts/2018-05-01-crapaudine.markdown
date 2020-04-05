@@ -6,7 +6,6 @@ description: #You’ll find this post in your `_posts` directory. Go ahead and e
 img: /crapaudine/crap.png # Add image post (optional)
 tags: [Manufacturing, Product Design, Catia, CAD, Lost Foam, Sand casting, CNC, Milling, Lathe, CMM]
 author: Ilies Ghanzouri # Add name author (optional)
-permalink: crapaudine
 ---
 
 # Manufacturing project of the crapaudine
